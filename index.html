@@ -9,12 +9,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="initProjects();">
         <header>
+            <div class="mobileHeader"><div class="border"></div></div>
             <nav class="wrapper">
                 <div class="logo"></div>
                 <div class="navIcon hamburger"></div>
-                <ul class="mobileHidden">
+                <ul>
                     <li>Work</li>
                     <li>About</li>
                     <li>Contact</li>
@@ -74,22 +75,37 @@
 
             <section id="projects">
                 <div class="projectCard slam">
-                    <div class="projectTitle">
-                        <h3>SLAM RWD Redesign</h3>
+                    <div class="projectContent">
+                        <div class="projectTitle">
+                            <h3>SLAM RWD Redesign</h3>
+                        </div>
+                        <div class="projectDescription">
+                            SLAM is a non-profit music school in Salt Lake City that provides affordable music lessons to everyone. This project is a RWD redesign of their website which showcases a much cleaner layout and navigation.
+                        </div>
                     </div>
                 </div>
                 <div class="projectCard treasury">
-                    <div class="projectTitle">
-                        <h3>US Treasury Redesign</h3>
+                    <div class="projectContent">
+                        <div class="projectTitle">
+                            <h3>US Treasury Redesign</h3>
+                        </div>
+                        <div class="projectDescription">
+                            An RWD Redesign of the US Department of Treasury website. This is a more modern design of the US Treasury site that makes it more accessible to the layman.
+                        </div>
                     </div>
-                    
                 </div>
                 <div class="projectCard secondNature">
-                    <div class="projectTitle">
-                        <h3>Second Nature Habit Tracker</h3>
+                    <div class="projectContent">
+                        <div class="projectTitle">
+                            <h3>Second Nature Habit Tracker</h3>
+                        </div>
+                        <div class="projectDescription">
+                            A habit tracker app that allows users to input their desired habits and track their progress.
+                        </div>
                     </div>
                 </div>
             </section>
+
             <section id="contact">
                 <h2>Interested in my services?</h2>
                 <p>If you like my work, I'd love to hear from you.</p>
